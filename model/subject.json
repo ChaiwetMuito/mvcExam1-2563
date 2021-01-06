@@ -1,0 +1,22 @@
+[
+    {
+        "sjid": "05506003",
+        "name": "PROGRAMMING FUNDAMENTALS"
+    },
+    {
+        "sjid": "05506004",
+        "name": "OBJECT-ORIENTED PROGRAMMING"
+    },
+    {
+        "sjid": "05506006",
+        "name": "DATA STRUCTURES AND ALGORITHMS"
+    },
+    {
+        "sjid": "05506009",
+        "name": "ALGORITHMS ANALYSIS AND DESIGN"
+    },
+    {
+        "sjid": "05506209",
+        "name": "AUTOMATA THEORIES AND PROGRAMMING LANGUAGES"
+    }
+]

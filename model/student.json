@@ -1,0 +1,27 @@
+[
+    {
+        "stid":"610500001",
+        "fristname": "Clay",
+        "lastname": "Pickle"
+    },
+    {
+        "stid":"610500002",
+        "fristname": "Grace",
+        "lastname": "Merrill"
+    },
+    {
+        "stid":"610500003",
+        "fristname": "Averill",
+        "lastname": "Lincoln"
+    },
+    {
+        "stid":"610500004",
+        "fristname": "Jolene",
+        "lastname": "Morrish"
+    },
+    {
+        "stid":"610500005",
+        "fristname": "Pyan",
+        "lastname": "Arthur"
+    }
+]

@@ -1,0 +1,430 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "Vote impostor!!!!",
+      "version": "2",
+      "title": "ระบบสอบแนวใหม่ !!!!"
+    },
+    "host": "localhost:8080",
+    "tags": [
+      {
+        "name": "test"
+      },
+      {
+        "name": "randomScore"
+      },
+      {
+        "name": "getScore"
+      },
+      {
+        "name": "voteProgramming"
+      },
+      {
+        "name": "voteOOP"
+      },
+      {
+        "name": "voteDataSruc"
+      },
+      {
+        "name": "voteAlgo"
+      },
+      {
+        "name": "voteAuto"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/test": {
+        "get": {
+          "tags": [
+            "test"
+          ],
+          "summary": "test",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "test",
+              "schema": {
+                "example": "test"
+              }
+            }
+          }
+        }
+      },
+      "/randomScore": {
+        "get": {
+          "tags": [
+            "randomScore"
+          ],
+          "summary": "randomScore",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          
+          "responses": {
+            "200": {
+              "description": "success",
+              "schema": {
+                "example": "random score success"
+              }
+            }
+          }
+        }
+      },
+      "/getScore": {
+        "get": {
+          "tags": [
+            "getScore"
+          ],
+          "summary": "getScore",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          
+          "responses": {
+            "200": {
+              "description": "getScore",
+              "schema": {
+                "example": "Score"
+              }
+            }
+          }
+        }
+      },
+      "/voteProgramming": {
+        "post": {
+          "tags": [
+            "voteProgramming"
+          ],
+          "summary": "voteProgramming",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "vote610500001",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500002",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500003",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500004",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500005",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Update",
+              "schema": {
+                "example": "คนที่โดนโหวดเยอะสุด พร้อมจำนวนโหวด"
+              }
+            }
+          }
+        }
+      },
+      "/voteOOP": {
+        "post": {
+          "tags": [
+            "voteOOP"
+          ],
+          "summary": "voteOOP",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "vote610500001",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500002",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500003",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500004",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500005",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Update",
+              "schema": {
+                "example": "คนที่โดนโหวดเยอะสุด พร้อมจำนวนโหวด"
+              }
+            }
+          }
+        }
+      },
+      "/voteDataSruc": {
+        "post": {
+          "tags": [
+            "voteDataSruc"
+          ],
+          "summary": "voteDataSruc",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "vote610500001",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500002",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500003",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500004",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500005",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Update",
+              "schema": {
+                "example": "คนที่โดนโหวดเยอะสุด พร้อมจำนวนโหวด"
+              }
+            }
+          }
+        }
+      },
+      "/voteAlgo": {
+        "post": {
+          "tags": [
+            "voteAlgo"
+          ],
+          "summary": "voteAlgo",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "vote610500001",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500002",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500003",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500004",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500005",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Update",
+              "schema": {
+                "example": "คนที่โดนโหวดเยอะสุด พร้อมจำนวนโหวด"
+              }
+            }
+          }
+        }
+      },
+      "/voteAuto": {
+        "post": {
+          "tags": [
+            "voteAuto"
+          ],
+          "summary": "voteAuto",
+          "consumes": [
+            "application/x-www-form-urlencoded"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "vote610500001",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500002",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "string",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500003",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500004",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            },
+            {
+              "name": "vote610500005",
+              "in": "formData",
+              "description": "เลือกโหวดว่าจะโหวตรหัสใด",
+              "required": true,
+              "type": "number",
+              "default": "610500001"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Update",
+              "schema": {
+                "example": "คนที่โดนโหวดเยอะสุด พร้อมจำนวนโหวด"
+              }
+            }
+          }
+        }
+      }
+      
+      
+    }
+  }
